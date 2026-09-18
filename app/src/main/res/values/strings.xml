@@ -4,9 +4,15 @@
     <string name="hint_scan">Move slowly — look for a flat surface where a verse may be hidden</string>
     <string name="hint_tap">Surface found — tap the glowing plane to reveal a scripture</string>
     <string name="discovered_title">Discovered Scriptures</string>
-    <string name="empty_discovered">No verses found yet. Tap a detected plane in AR.</string>
+    <string name="empty_discovered">No verses found yet. Tap a plane in AR, or walk to a map spawn.</string>
     <string name="close">Close</string>
     <string name="open_collection">My collection</string>
     <string name="new_discovery">Scripture revealed!</string>
     <string name="camera_rationale">Camera access is required to explore the world in AR and discover hidden scriptures.</string>
+    <string name="location_rationale">Location helps place scripture spawns on the map around you. You can still hunt freely in AR without it.</string>
+    <string name="tab_ar">AR</string>
+    <string name="tab_map">Map</string>
+    <string name="reveal_in_ar">Reveal in AR</string>
+    <string name="scripture_nearby">Scripture nearby</string>
+    <string name="hidden_word">Hidden word</string>
 </resources>

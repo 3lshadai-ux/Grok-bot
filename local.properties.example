@@ -1,0 +1,8 @@
+## Copy this file to local.properties (gitignored) and fill in your keys.
+## Android Studio also writes sdk.dir here automatically.
+
+sdk.dir=/path/to/Android/sdk
+
+# Google Cloud Console → enable "Maps SDK for Android" → create an API key
+# Restrict the key to your package com.elshadai.scripturehunt when shipping.
+MAPS_API_KEY=your_key_here
