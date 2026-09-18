@@ -1,7 +1,7 @@
 package com.elshadai.scripturehunt
 
 /**
- * Sample verses for v0. Text is public-domain King James Version (KJV).
+ * Sample verses for the hunt. Text is public-domain King James Version (KJV).
  */
 data class Scripture(
     val id: String,
@@ -65,5 +65,34 @@ object ScriptureCatalog {
                 "to them who are the called according to his purpose.",
             theme = "Purpose",
         ),
+        Scripture(
+            id = "ps46_10",
+            reference = "Psalm 46:10",
+            text = "Be still, and know that I am God: I will be exalted among the heathen, " +
+                "I will be exalted in the earth.",
+            theme = "Peace",
+        ),
+        Scripture(
+            id = "mic6_8",
+            reference = "Micah 6:8",
+            text = "He hath shewed thee, O man, what is good; and what doth the Lord require of thee, " +
+                "but to do justly, and to love mercy, and to walk humbly with thy God?",
+            theme = "Mercy",
+        ),
+        Scripture(
+            id = "heb11_1",
+            reference = "Hebrews 11:1",
+            text = "Now faith is the substance of things hoped for, the evidence of things not seen.",
+            theme = "Faith",
+        ),
+        Scripture(
+            id = "jer29_11",
+            reference = "Jeremiah 29:11",
+            text = "For I know the thoughts that I think toward you, saith the Lord, " +
+                "thoughts of peace, and not of evil, to give you an expected end.",
+            theme = "Promise",
+        ),
     )
+
+    fun byId(id: String): Scripture? = all.find { it.id == id }
 }

@@ -5,7 +5,7 @@ import androidx.compose.runtime.snapshots.SnapshotStateList
 
 /**
  * In-memory collection of scriptures the player has revealed this session.
- * v1 can persist to DataStore / map markers.
+ * Claimed map spawns mirror discovered scripture ids.
  */
 object DiscoveredScripturesStore {
     val discovered: SnapshotStateList<Scripture> = mutableStateListOf()
