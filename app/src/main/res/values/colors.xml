@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#3D2914</color>
+    <color name="scroll_parchment">#FFF8E7</color>
+    <color name="ink_brown">#3D2914</color>
+    <color name="gold_accent">#C9A227</color>
+    <color name="deep_teal">#1A4D4A</color>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Scripture Hunt</string>
+    <string name="hint_scan">Move slowly — look for a flat surface where a verse may be hidden</string>
+    <string name="hint_tap">Surface found — tap the glowing plane to reveal a scripture</string>
+    <string name="discovered_title">Discovered Scriptures</string>
+    <string name="empty_discovered">No verses found yet. Tap a detected plane in AR.</string>
+    <string name="close">Close</string>
+    <string name="open_collection">My collection</string>
+    <string name="new_discovery">Scripture revealed!</string>
+    <string name="camera_rationale">Camera access is required to explore the world in AR and discover hidden scriptures.</string>
+</resources>
