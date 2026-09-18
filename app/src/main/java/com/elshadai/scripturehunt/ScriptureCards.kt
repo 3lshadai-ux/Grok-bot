@@ -111,7 +111,7 @@ fun DiscoveredCollectionSheet(
         Spacer(modifier = Modifier.height(8.dp))
         if (items.isEmpty()) {
             Text(
-                text = "No verses found yet. Tap a detected plane in AR.",
+                text = "No verses found yet. Tap a plane in AR, or walk to a map spawn.",
                 color = Color(0xFF6B5A45),
                 modifier = Modifier.padding(vertical = 24.dp),
             )
